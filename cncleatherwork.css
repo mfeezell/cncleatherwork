@@ -70,5 +70,10 @@ nav a:link {color:#282D9E;}
 nav a:visited {color:#3238C7;}
 nav a:hover {color:#8084DF;}
 
-cnc
+table{
+	width: 90%;
+	margin:auto;
+	border-spacing: 0;
+	background-color:#FFFFFF;	
+}
 
