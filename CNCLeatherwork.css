@@ -1,0 +1,74 @@
+*{box-sizing:border-box;
+}
+body
+{
+	background-color:#DFDB80;
+	color:#282D9E;
+	font-family: Tahoma, Arial, sans-serif;
+	padding-left:3em;
+	padding-right:2em;
+}
+#wrapper{
+	background-color:#FFFFFF;
+	min-width:900px;
+	max-width:1280px;
+	box-shadow:5px 5px 5px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+	width:80%
+	}
+header
+{background-color: #DFDB80;
+	background-image:url(cnc.jpg);
+	background-repeat:no-repeat;
+	color: #8C3826;
+	line-height: 250px;
+
+}
+h1
+{
+	background-color:#FFFFFF;
+	background-image:url(images/cnc_150.jpg);
+	background-repeat:no-repeat;
+	color: #282D9E;
+	line-height:150px;
+	text-align:center;
+	border-bottom: solid; #282D9E
+	}
+h2
+{
+	color: #282D9E;
+	text-align:left;
+	}	
+nav
+{
+	font-weight:bold;
+	text-align:center;
+	}
+main{
+	padding-top:0;
+	padding-bottom:2em;
+	padding-left:0;
+	padding-right:0;
+	margin-left: 100px;
+	background-color: #FFFFFF;
+}
+footer
+{
+	background-color:#A9ACE9;
+	font-size:.60em;
+	text-align:center;
+	}
+nav a{
+	text-decoration: none;
+}
+nav a:link {color:#282D9E;}
+nav a:visited {color:#3238C7;}
+nav a:hover {color:#8084DF;}
+
+
+
