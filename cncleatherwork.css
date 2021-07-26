@@ -2,14 +2,15 @@
 }
 body
 {
-	background-color:#DFDB80;
-	color:#282D9E;
+	background-color:#33878F;
+	color:#402b0c;
 	font-family: Tahoma, Arial, sans-serif;
 	padding-left:3em;
 	padding-right:2em;
 }
 #wrapper{
 	background-color:#FFFFFF;
+	background-image:url(./Images/tan_leather.jpg);
 	min-width:900px;
 	max-width:1280px;
 	box-shadow:5px 5px 5px;
@@ -25,24 +26,25 @@ header
 {background-color: #DFDB80;
 	background-image:url(./Images/cnc.jpg);
 	background-repeat:no-repeat;
-	color: #8C3826;
+	color: #833E00;
 	line-height: 250px;
 
 }
 h1
 {
-	background-color:#FFFFFF;
-	background-image:url(./Images/cnc_150.jpg);
+	background-color:#115259;
+	background-image:url(./Images/cnc_midcen2_150.jpg);
 	background-repeat:no-repeat;
-	color: #282D9E;
+	color: #EB9A52;
 	line-height:150px;
 	text-align:center;
-	border-bottom: solid; #282D9E
+	border-bottom: solid; 1px; #282D9E
 	}
 h2
 {
-	color: #282D9E;
+	color: #4e4e4e;
 	text-align:left;
+	padding-top:10px;
 	}	
 nav
 {
@@ -52,28 +54,39 @@ nav
 main{
 	padding-top:0;
 	padding-bottom:2em;
-	padding-left:0;
-	padding-right:0;
+	padding-left:2em;
+	padding-right:5em;
+	margin-top: 20px;
 	margin-left: 100px;
-	background-color: #FFFFFF;
+	margin-right: 100px;
+	display: block;
+	background-color: #F1EBE4;
 }
+
 footer
 {
-	background-color:#A9ACE9;
+	padding-top:1em;
+	padding-bottom:1em;
+	background-color:#842419;
+	color: #ede7de;
 	font-size:.60em;
 	text-align:center;
 	}
 nav a{
 	text-decoration: none;
 }
-nav a:link {color:#282D9E;}
-nav a:visited {color:#3238C7;}
-nav a:hover {color:#8084DF;}
+nav a:link {color:#842419;}
+nav a:visited {color:#842419;}
+nav a:hover {color:#EB9A52;}
+
+a:link {color:#842419;}
+a:visited {color:#842419;}
+a:hover {color:#EB9A52;}
 
 table{
 	width: 90%;
 	margin:auto;
-	border-spacing: 0;
-	background-color:#FFFFFF;	
+	border-spacing: 1em;
+	background-color:#F1EBE4;	
 }
 
