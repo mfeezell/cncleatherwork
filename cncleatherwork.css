@@ -10,8 +10,7 @@ body
 }
 
 #wrapper{
-	background-color:#EB9A52;
-	background-image:url(./Images/tan_leather.jpg);
+	background-color:#D89E6B;
 	min-width:900px;
 	max-width:1280px;
 	box-shadow:5px 5px 5px;
@@ -92,7 +91,7 @@ nav a:hover {color:#EB9A52;}
 
 a:link {color:#842419;}
 a:visited {color:#842419;}
-a:hover {color:#EB9A52;}
+a:hover {color:#5C0B03;}
 
 table{
 	width: 90%;
