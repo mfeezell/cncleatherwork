@@ -30,14 +30,14 @@ header
 	line-height: 250px;
 }
 #leathergoods { 
-	background-image:url(./images/all_leather_400_new2.jpg); 
+	background-image:url(./images/all_leather_400_new3.jpg); 
   background-size: 100% 100%;
   height: 200px; 
   }
 h1
 {
 	background-color:#115259;
-	background-image:url(./images/cnc_midcen2_150.jpg);
+	background-image:url(./images/cnc_craftsman.jpg);
 	background-repeat:no-repeat;
 	color: #EB9A52;
 	line-height:150px;
@@ -82,6 +82,12 @@ footer
 	font-size:.60em;
 	text-align:center;
 	}
+	
+a.email, a.email:link, a.email:visited, a.email:active, a.email:hover {
+	color:#ede7de;
+	text-decoration:none;
+}
+	
 nav a{
 	text-decoration: none;
 }
@@ -98,7 +104,6 @@ table{
 	margin:auto;
 	border-spacing: 1em;
 	background-color:#F1EBE4;	
-}
 }
 .patterndetails { padding-left: 10%;
            padding-right: 10%;
