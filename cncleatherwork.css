@@ -50,17 +50,35 @@ h2
 	text-align:left;
 	padding-top:10px;
 	}	
+h3
+{
+	color: #4e4e4e;
+	text-align:left;
+	padding-top:10px;
+	}		
 h4
 {
 	color: #4e4e4e;
 	text-align:center;
 	padding-top:10px;
 	}		
-nav
-{
-	font-weight:bold;
-	text-align:center;
-	}
+
+	
+nav { float: none;
+	     width: auto;
+		 padding-top: 0;
+		 margin: 10px;
+		 font-size: 1.3em; 
+		 text-align:center;
+		 }
+nav li { display: inline-block; }
+nav a { padding: 1em; 
+	      width: 8em; 
+		  font-weight: bold;
+		  border-style: none; }
+nav ul { padding: 0; 
+	      margin: 0; }
+	      
 main{
 	padding-top:0;
 	padding-bottom:2em;
@@ -85,7 +103,6 @@ footer
 	
 a.email, a.email:link, a.email:visited, a.email:active, a.email:hover {
 	color:#ede7de;
-	text-decoration:none;
 }
 	
 nav a{
